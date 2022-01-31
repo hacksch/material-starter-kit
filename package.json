@@ -1,0 +1,31 @@
+{
+  "name": "dev-mt-material-starter-kit",
+  "version": "1.0.0",
+  "main": "js/app.js",
+  "description": "Updated dependencies with nodejs 16 and material 13.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^6.2.1",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "@material/button": "^13.0",
+    "@material/ripple": "^13.0",
+    "@material/typography": "^13.0"
+  }
+}
