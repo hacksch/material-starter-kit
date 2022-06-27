@@ -1,8 +1,11 @@
+@use "@material/theme" with (
+  $primary: #58af86,
+  $secondary: #000000,
+  $on-primary: #ffffff,
+  $on-secondary: #ffffff,
+);
 @use "@material/typography/mdc-typography";
-@use "@material/button/styles";
+@use "@material/button/mdc-button";
 
 
 @import "fonts";
-
-// Import your components for your application
-//@import "typography";

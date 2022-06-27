@@ -8,8 +8,8 @@
     "start": "webpack serve"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.12",
-    "@babel/preset-env": "^7.16.11",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
@@ -24,8 +24,9 @@
     "webpack-dev-server": "^4.7.3"
   },
   "dependencies": {
-    "@material/button": "^13.0",
-    "@material/ripple": "^13.0",
-    "@material/typography": "^13.0"
+    "@material/button": "^14.0",
+    "@material/ripple": "^14.0",
+    "@material/theme": "^14.0",
+    "@material/typography": "^14.0"
   }
 }
